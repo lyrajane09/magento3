@@ -1,9 +1,8 @@
-<?xml version="1.0"?>
 <config>
 	<modules>
-		<Lyrajane_helloworld>
+		<Catindustry_Hellocats>
 			<active>true</active>
 			<codePool>local</codePool>
-		</Lyrajane_helloworld>
+		</Catindustry_Hellocats>
 	</modules>
 </config>

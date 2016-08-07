@@ -1,0 +1,18 @@
+<config>
+	<modules>
+		<Catindustry_Hellocats>
+			<version>0.1.0</version>
+		</Catindustry_Hellocats>
+	</modules>
+	<frontend>
+		<routers>
+			<hellocats>
+				<use>standard</use>
+				<args>
+					<module>Catindustry_Hellocats</module>
+					<frontName>hellocats</frontName>
+				</args>
+			</hellocats>
+		</routers>
+	</frontend>
+</config>

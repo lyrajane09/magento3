@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <config>
 	<modules>
-		<Lyrajane_HelloWorld>
-			<version>0.1.0</version>
-		</Lyrajane_HelloWorld>
+		<Lyrajane_helloworld>
+			<version>1.0.0</version>
+		</Lyrajane_helloworld>
 	</modules>
 	<frontend>
 		<routers>
 			<helloworld>
 				<use>standard</use>
 				<args>
-					<module>Lyrajane_HelloWorld</module>
-					<frontname>HelloWorld</frontname>
+					<module>Lyrajane_helloworld</module>
+					<frontname>helloworld</frontname>
 				</args>
 			</helloworld>
 		</routers>

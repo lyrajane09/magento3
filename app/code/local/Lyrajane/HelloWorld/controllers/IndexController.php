@@ -1,5 +1,5 @@
 <?php
-class Lyrajane_HelloWorld_IndexController extends Mage_Core_Controller_Front_Action{
+class Lyrajane_helloworld_IndexController extends Mage_Core_Controller_Front_Action{
 	public function indexAction(){
 		echo "Hello World";
 	}
