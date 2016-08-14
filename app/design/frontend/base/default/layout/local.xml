@@ -1,0 +1,10 @@
+<layout version = "0.1.0">
+	<!-- <default>
+		<block type = "page/html" name = "root" output = "toHtml" template = "catindustry/hellocats/simple_page.html"/>
+	</default> -->
+	<hellocats_index_index>
+		<reference name = "content"> 
+			<block type = "hellocats/local" name = "hellocats" output = "toHtml" template = "catindustry/hellocats/simple_page.html"/>
+		</reference>
+	</hellocats_index_index>
+</layout>

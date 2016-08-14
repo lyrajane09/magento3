@@ -15,4 +15,18 @@
 			</hellocats>
 		</routers>
 	</frontend>
+	<layout>
+		<updates>
+            <hellocats>
+            <file>local.xml</file>
+            </hellocats>
+         </updates>
+	</layout>
+	<global>
+		<blocks>
+			<hellocats>
+				<class>Catindustry_Hellocats_Block</class>
+			</hellocats>
+		</blocks>
+	</global>
 </config>
