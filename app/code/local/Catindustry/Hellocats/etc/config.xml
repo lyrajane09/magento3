@@ -14,14 +14,15 @@
 				</args>
 			</hellocats>
 		</routers>
+		<layout>
+            <updates>
+                <hellocats_index_layouttemplate>
+                	<!--  probably smart to rename this -->
+                    <file>local.xml</file>
+                </hellocats_index_layouttemplate>
+            </updates>
+        </layout>
 	</frontend>
-	<layout>
-		<updates>
-            <hellocats>
-            <file>local.xml</file>
-            </hellocats>
-         </updates>
-	</layout>
 	<global>
 		<blocks>
 			<hellocats>

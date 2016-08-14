@@ -7,4 +7,19 @@
 			<block type = "hellocats/local" name = "hellocats" output = "toHtml" template = "catindustry/hellocats/simple_page.html"/>
 		</reference>
 	</hellocats_index_index>
+	
+	
+	<hellocats_index_layouttemplate translate="label">
+        <label>catindustry_hellocats_layouttemplate</label>
+        <reference name="root">
+            <action method="setTemplate">
+            	<template>catindustry/hellocats/simple_page.phtml</template>
+           	</action>
+            <action method="setIsHandle">
+            	<applied>1</applied>
+           	</action>
+        </reference>
+    </hellocats_index_layouttemplate> 
+    
+    
 </layout>
