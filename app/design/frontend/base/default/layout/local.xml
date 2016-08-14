@@ -19,6 +19,10 @@
             	<applied>1</applied>
            	</action>
         </reference>
+        <reference name="content">
+           	<block type="core/template" output="toHtml" name="myfunction" template="catindustry/hellocats/myfunction.phtml"/>
+		</reference>
+        
     </hellocats_index_layouttemplate> 
     
     
