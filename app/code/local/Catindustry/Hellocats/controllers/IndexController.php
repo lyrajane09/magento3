@@ -48,18 +48,12 @@ class Catindustry_Hellocats_IndexController extends Mage_Core_Controller_Front_A
 		// $this->_getServer()->init($this, 'xmlrpc')->run();
 	// }
 	
-	//layout template 
+	
+	/**
+	 * layout template 
+	 */
 	public function layoutTemplateAction(){
-		//$this->loadLayout();
-		//$this->renderLayout();
-		//$this->setTemplate('hellocats/simple_page.');
-		
-		
 		$this->loadLayout();
-		$block = $this->getLayout()->getBlock("root")->setTemplate("catindustry/hellocats/simple_page.phtml");
-		$this->getLayout()->getBlock('content')->append($block);
-		$this->renderLayout();	
-		
-		
+		$this->renderLayout();
 	}
 }
