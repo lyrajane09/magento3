@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+        <reference name="root">
+            <!-- adds ability to load js in the footer -->
+            <block type="page/html_head" name="footer.js" as="footer.js" template="page/html/footer-js.phtml">
+                <action method="addItem"><type>skin_js</type><name>js/build/jquery.min.js</name></action>
+            </block>
+        </reference>
+    </default>
+	
+    <cms_index_index>
+        <reference name="content">
+            <!-- home featured products -->
+            <block type="catalog/product_list" name="home.featured.products" after="-" template="catalog/product/list-home-featured.phtml" />
+        </reference>
+    </cms_index_index>
+	
+</layout>
