@@ -1,0 +1,20 @@
+<config>
+	<modules>
+		<Weblog_Blogtesting>
+			<version>0.1.0</version>
+		</Weblog_Blogtesting>
+	</modules>
+	<frontend>
+		<routers>
+			<blogtesting>
+				<use>standard</use>
+				<args>
+					<module>Weblog_Blogtesting</module>
+					<frontName>blogtesting</frontName>
+				</args>
+			</blogtesting>
+		</routers>
+		
+	</frontend>
+	
+</config>
