@@ -14,7 +14,23 @@
 				</args>
 			</blogtesting>
 		</routers>
-		
 	</frontend>
+	<global>
+		<models>
+			<blogtesting>
+				<class>Weblog_Blogtesting_Model</class>
+				<resourceModel>blogtesting_resource</resourceModel>
+			</blogtesting>
+			<blogtesting_resource>
+				<class>Weblog_Blogtesting_Model_Resource</class>
+				<entities>
+					<readpost>
+						<table>blog_posts</table>
+					</readpost>
+				</entities>
+			</blogtesting_resource>
+		</models>
+	</global>
+	
 	
 </config>
