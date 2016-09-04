@@ -5,4 +5,6 @@ class Weblog_Blogtesting_Model_Resource_Readpost_Collection extends Mage_Core_Mo
     {
             $this->_init('blogtesting/readpost');
     }
+	
+	
 }

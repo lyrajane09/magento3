@@ -1,7 +1,7 @@
-<config>
+s<config>
 	<modules>
 		<Weblog_Blogtesting>
-			<version>0.1.0</version>
+			<version>0.2.0</version>
 		</Weblog_Blogtesting>
 	</modules>
 	<frontend>
@@ -30,6 +30,14 @@
 				</entities>
 			</blogtesting_resource>
 		</models>
+		<resources>
+			<blogtesting_setup>
+				<setup>
+					<module>Weblog_Blogtesting</module>
+					<class>Weblog_Blogtesting_Model_Resource_Setup</class>
+				</setup>
+			</blogtesting_setup>
+		</resources>
 	</global>
 	
 	
