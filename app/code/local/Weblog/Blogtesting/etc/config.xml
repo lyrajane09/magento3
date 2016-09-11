@@ -1,4 +1,4 @@
-s<config>
+<config>
 	<modules>
 		<Weblog_Blogtesting>
 			<version>0.2.0</version>

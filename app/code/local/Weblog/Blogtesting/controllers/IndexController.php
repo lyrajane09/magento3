@@ -54,4 +54,28 @@ class Weblog_Blogtesting_IndexController extends Mage_Core_Controller_Front_Acti
 
 	}
 	
+	//model collections
+	public function testAction(){
+		$collection_of_products = Mage::getModel('blogtesting/readpost')->getCollection();
+		var_dump($collection_of_products->getFirstItem()->getData());
+	}
+	
+	public function test2Action(){
+		$collection_of_products = Mage::getModel('blogtesting/readpost')
+		->getCollection()
+		->addAttributeToSelect('meta_title')
+		->addAttributeToSelect('price');
+	}
+	
+	public function test3Action
+	{
+		var_dump(
+			(string)
+			Mage::getModel('blogtesting/readpost')
+				->getCollection()
+				->addFieldToFilter('price',array('from'=>'10','to'=>'20'))
+				->getSelect()
+		);
+	}
+	
 }
