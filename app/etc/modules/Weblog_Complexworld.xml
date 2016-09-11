@@ -1,0 +1,8 @@
+<config>
+	<modules>
+		<Weblog_Complexworld>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Weblog_Complexworld>
+	</modules>
+</config>
